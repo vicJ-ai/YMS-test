@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/brand/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Satoshi', Arial, sans-serif;
+  color: #181818;
+  background: #fafafa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { min-width: 320px; min-height: 100%; }
+body { margin: 0; min-height: 100vh; }
+button, input { font: inherit; }
+button { letter-spacing: 0; }
+button:focus-visible, input:focus-visible {
+  outline: 3px solid color-mix(in srgb, #763abf 45%, transparent);
+  outline-offset: 2px;
+}
